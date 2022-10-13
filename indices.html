@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indices</title>
+    <link rel = "icon" type = "image/png" href = "Mathstyles/image/indices favicon.png">
+    <link rel = "stylesheet" href = "Mathstyles/style.css">
+    <script src = "math.js"></script>
+</head>
+<body>
+    <main>
+        <!-- INDICES AND LOGARITHM-->
+
+        <!--INDICES BEGINS-->
+        <section>
+            <div>
+                <h2>Indices & Logarithms</h2>
+                <p>  Indices is the calculation and simplification of figures</p>
+                <br>
+                <h3> Objectives</h3>
+                <p><i> At the end of this chapter, student should be able to :</i></p><br>
+                &#8729 <small> Use the laws of indices in calculations and simplification;</small><br>
+                &#8729 <small> Use the relationship between indices and logarithm to solve problems ;</small><br>
+                &#8729 <small> Use logarithms tablses in calculations;</small><br>
+                &#8729 <small> Change bases in logarithms.</small>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <img src = "Mathstyles/image/description indices.png" class = "image-desc" alt = "description">
+                <h2>Notation</h2>
+                <p> A short form of writing<span><b> a&#8901a&#8901a is a<sup>3</sup> </b></span>. The letter a is called the base while the number 3 is the power, index or exponent</p><br>
+                <i>don't worry you'll get to know all this in few seconds </i>
+                <h2>Laws of Indices</h2>
+                <p><b><i>Note:</i></b> we're using dot notion as multiplication so don't be confused <i>i.e</i> <b>&#8901 = *</b></p>
+                <ul>
+                    <li> <h4>Law of Multiplication</h4>
+                        a<sup>2</sup> = a&#8901a
+                        <details close>
+                            <h6><i>Examples</i></h6>
+                            <p> 2&#8901 2 &#8901 2 = 2<sup>3</sup> = 2 x 2 x 2 = 8</p>
+                            <p><h5>Solve</h5> 2<sup>3</sup></p>
+                            <p><h5>Solve</h5> 2 x 2 x 2</p>
+                        
+                        <div class = " Basics-multiple">
+                            <input type = "number" id = "base" value = "" placeholder = "Base">
+                            <input type = "number" id = "exponent" value = "" placeholder = "Exponent">                           
+                            <button type = "button" onclick = "Multiple()">Solve</button>
+                            <h5 id = "lawsMultiple"></h5> 
+                        </div>
+                        </details>
+                        <h3>In General</h3>
+                        <h5><b>a<sup>m</sup> x a<sup>n</sup> = a<sup>m+n</sup></b></h5>
+                        <h6><i>Examples</i></h6>
+                        <p>2<sup>3</sup> &#8901 2<sup>5</sup> = 2<sup>3+5</sup> = 256</p>
+                        <h5>Solve :</h5>
+                        <p>2<sup>3</sup> x 2<sup>5</sup></p>
+                        <p>3<sup>2</sup> x 3<sup>7</sup></p>
+                        <h4>Multiplication of different bases</h4>
+                        <p>4<sup>2</sup> x 2<sup>3</sup> <br>
+                            solve simultaneously thus, <br>
+                            4<sup>2</sup> = 16<br>
+                            then 2<sup>3</sup> = 8<br>
+                            16 &#8901 8 = 128
+                        </p>
+                        
+                    </li>
+                    <li> <h4>Law of Division</h4>
+                            a<sup>m</sup> / a<sup>n</sup> = a<sup>m-n</sup><br>
+                            a<sup>4</sup> /  a<sup>2</sup> = a<sup>4-2</sup>
+                            <details close>
+                                <h5><i>Examples</i></h5>
+                                <p>12<sup>4</sup> / 4<sup>2</sup></p>
+                                <p>... Firstly divide the base <br>
+                                    ... Secondly subtract the powers from each other.
+                                </p>
+                                <p><i>i.e</i> (12/4)<sup>4 - 2</sup><br>
+                                   3<sup>2</sup>
+                                </p>
+                                <p><h5>Solve</h5> 2<sup>3</sup> / 1</p>
+                                <p><h5>Solve</h5> 24<sup>2</sup> / 2<sup>4</sup></p>
+                            
+                           
+                            </details>
+                    </li>
+                    <li>
+                        <h4>Law of Reciprocal</h4>
+                        <p>a<sup>-1</sup> = 1/a</p>
+                        <h5><i>Example</i></h5>
+                        <p>4<sup>-2</sup> will be solved as this</p>
+                        <p>1/(4)<sup>2</sup> = 1/16</p>
+                    </li>
+                    <li>
+                        <h4>Zero exponent</h4>
+                        <p> <i>Note : </i> if any figure is with the exponent zero then the value is said to be one </p>
+                        <h5>Example</h5>
+                        <p>n<sup>0</sup> = 1</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1 class = "recap"> Let's Recap</h1><hr>
+                <p>a<sup>x</sup> x a<sup>y</sup> = a<sup>8</sup>.......Law of Multiplication</p>
+                <p>a<sup>n</sup> / a<sup>m</sup> = a<sup>3-2</sup>.......Law of Division</p>
+                <p>a<sup>-m</sup> = m/a.......Reciprocal Law</p>
+                <p>a<sup>0</sup> = 1 .......Zero Exponent</p>
+            </div>
+            <div class = "solved-question">
+                <h1 class = "recap">Solved questions</h1>
+                <p><b>1. </b>Simplify this (27)<sup>2/3</sup> </p>
+                <p><b>2. </b>Solve this(1/8)<sup>x</sup> = 8</p>
+                <p><b>3. </b>10<sup>-x</sup>  = 0.000001</p>
+                <p><b>4. </b>Solve 3(3)<sup>x</sup> = 27</p>
+                <p><b>5. </b>5<sup>2x</sup> - 26(5<sup>x</sup>) + 25 = 0</p>
+                <h2>Solutions</h2>
+                <p><b>1. </b>(27)<sup>2/3</sup><br>
+                   (3<sup>3</sup>)<sup>2/3</sup>.... <i>this is the breaking point</i><br>
+                   (3<sup><s>3</s></sup>)<sup>2/<s>3</s></sup>....<i>Now we're left with exponential 2</i><br>
+                   <i>i.e </i>3<sup>2</sup> = 9
+                </p>
+                <hr>
+                <p><b>2. </b>(1/8)<sup>x</sup> = 8<br>
+                   <i>we use the law of reciprocal here..</i><br>
+                   <i>thus</i>(8<sup>-x</sup>) = 8<br>
+                   <i>we reduce both side by 8</i><br>
+                   <s>8</s><sup>-x</sup> = <s>8</s><sup>1</sup><br>
+                   <i>hence... </i> -x = 1
+                   <i>therefore </i> x = -1
+                </p>
+                <hr>
+                <p><b>3. </b>10<sup>-x</sup> = 0.000001<br>
+                   10<sup>-x</sup> = 10<sup>-6</sup><br>
+                   <i>we also reduce... both side by 10 </i><br>
+                   <s>10</s><sup>-x</sup> = <s>10</s><sup>-6</sup>
+                   -x = -6<br>
+                   <i>hence... </i> x = 6 
+                </p>
+                <hr>
+                <p><b>4. </b>3(3)<sup>x</sup> = 27 <br>
+                   3<sup>x + 1 </sup> = 3<sup>3</sup><br>
+                   <i>we also reduce... by 3 </i>
+                   <s>3</s><sup>x + 1</sup> = <s>3</s><sup>3</sup><br>
+                   x + 1 = 3 <br>
+                   <i>therefore... </i> x = 3 - 1 <br>
+                   x = 2 
+                </p>
+                <hr>
+                <p><b>5. </b> 5<sup>2x</sup> - 26(5<sup>x</sup>) + 25 = 0 <br>
+                   <i>Here is a quadratic form... let 5<sup>x</sup> = p </i><br>
+                   p<sup>2</sup> - 26p + 25 = 0 <br>
+                   <i>Let's factorise... </i> <br>
+                   p<sup>2</sup> - 25p - p + 25 = 0<br>
+                   (p<sup>2</sup> - 25p) - (-p + 25) = 0<br>
+                   p(p - 25)(p - 25) = 0 <br>
+                   (p - 25)(p - 1) = 0<br>
+                   <i>hence... </i> p = 25 or p = 1 <br>
+                   <i>thus, </i> p = 5<sup>x</sup>, let p = 25<br>
+                   25 = 5<sup>x</sup>, 5<sup>2</sup> = 5<sup>x</sup><br>
+                   x = 5 ,when p = 25.<br><br>
+                   <i>let p = 1 </i>, where p = 5<sup>x</sup><br>
+                   <i>Now the Zero exponent i.e X<sup>0</sup> = 1 </i>, 5<sup>0</sup> = 5<sup>x</sup><br>
+                   <i>reduce both side by 5... </i> x = 0, <br>
+                   <i>hence... when p = 1, x = 0</i>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
